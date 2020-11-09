@@ -1,0 +1,33 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+.list {
+  
+}
+.list-item {
+  font-size: 14px;
+}
+.list + .list {
+  margin-top: 8px;
+}
+.list-item + .list-item {
+  margin-top: 4px;
+}
+
+.video-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.video-wrapper {
+  flex: 1;
+}
+.video-wrapper > video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#addPeer {
+  margin: 16px 0;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "webrtc-simple-sdk",
+  "version": "0.1.0",
+  "description": "Абстракция над браузерным WebRTC API, упрощающая создание соединения между клиентами",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikolay Kuznetsov",
+  "license": "ISC"
+}
